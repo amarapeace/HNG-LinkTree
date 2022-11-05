@@ -6,7 +6,7 @@ import Contact from "./components/Contact/contact";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
