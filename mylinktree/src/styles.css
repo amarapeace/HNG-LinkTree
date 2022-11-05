@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  text-align: center;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5% 10px
+  ;
+}
+
+.myprofile h3 {
+  visibility: hidden;
+}
+
+.myprofilepics {
+  width: 80px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.linkdiv {
+  background-color: #eaecf0;
+  height: 50px;
+  align-items: center;
+  margin-block: auto;
+  padding-top: 12px;
+  border-radius: 8px;
+  margin-block: 20px;
+  color: #000;
+  width: 90%;
+}
+
+.mylinks {
+  text-decoration: none;
+  color: #101828;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+
+.foot {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-start: 80px;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .foot img {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .foot img {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .foot {
+    display: flex;
+    /* align-items: flex-start; */
+    flex-direction: column;
+  }
+
+  .foot img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+}
+
+
+

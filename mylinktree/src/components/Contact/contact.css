@@ -1,0 +1,158 @@
+* {
+  font-family: "Inter";
+}
+
+.maindiv {
+  width: 60%;
+  /* max-height: 80%; */
+  justify-content: center;
+  margin: 10% auto;
+}
+
+.input_box {
+  border-radius: 4px;
+  background-color: white;
+  width: 80%;
+  padding: 2% 5%;
+  border-color: #d0d5dd;
+  outline-color: #d0d5dd;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-shadow: #475467;
+}
+
+.textarea {
+  margin-top: 10px;
+}
+label {
+  font-size: 14px;
+  color: #344054;
+}
+
+::placeholder {
+  /* opacity: 0.5; */
+  color: rgba(45, 45, 45, 0.5);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 15px;
+  vertical-align: baseline;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: #22443e;
+}
+.check_label {
+  display: flex;
+  flex-direction: row;
+}
+
+.check {
+  align-self: baseline;
+  color: #344054;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+.textareadiv {
+  margin-top: 20px;
+}
+.textarea {
+  border-radius: 6px;
+}
+
+.contacthead p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #475467;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: "Inter";
+}
+.contacthead h1 {
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  /* font-family: inter; */
+}
+
+.message {
+  width: 80%;
+  background-color: #1570ef;
+  color: white;
+  padding: 2% 5%;
+  border: none;
+  border-radius: 6px;
+}
+.fname {
+  display: flex;
+  flex-direction: row;
+  /* column-gap: 2px; */
+}
+.fname > :first-child {
+  width: 45%;
+}
+
+.fname > :nth-child(2) {
+  width: 45%;
+}
+
+@media screen and (max-width: 1200px) {
+  textarea {
+    width: 95%;
+    resize: horizontal;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  textarea {
+    width: 90%;
+    resize: horizontal;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  textarea {
+    width: 80%;
+    resize: horizontal;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  textarea {
+    width: 70%;
+    resize: horizontal;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .fname {
+    display: flex;
+    flex-direction: column;
+    /* column-gap: 2px; */
+  }
+  .fname > :first-child {
+    width: 90%;
+  }
+
+  .fname > :nth-child(2) {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .maindiv {
+    width: 95%;
+    justify-content: center;
+    margin-right: 0%;
+    margin-left: 0%;
+    align-self: center;
+  }
+}
